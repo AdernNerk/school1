@@ -1,0 +1,350 @@
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body
+{
+	font-family: Montserrat;
+	line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    word-wrap: break-word;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+h1, h2, h3, h4, h5, h6
+{
+	margin:0px;
+	padding: 0px;
+}
+h6
+{
+	font-size: 16px;
+}
+h4
+{
+	font-size: 30px;
+}
+h3
+{
+	font-size: 40px;
+}
+.pads
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+@media (max-width:600px)
+{
+	.pads
+	{
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
+}
+@media (max-width:900px) and (min-width:601px)
+{
+	.pads
+	{
+		padding-left: 30px;
+		padding-right: 30px;	
+	}
+}
+w3-container, w3-half, w3-quarter, w3-third, w3-two-third, w3-rest, w3-threequarter, w3-left, w3-right
+{
+	padding:0px;
+	margin:0px;
+}
+.nav
+{
+	width:100%;
+	background-color: #fff;
+	color: #282828;
+}
+.nav .home img
+{
+	margin: 5px;
+	width: auto;
+	height: auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.nav .nav-scroll-small
+{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+	height: 45px;
+	padding-top: 0px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding-bottom: 7px;
+}
+.nav .nav-scroll-small .major
+{
+	border:1px solid #8b8b8b;
+	height: 30px;
+	border-radius:25px;
+	padding-left: 15px;
+	padding-right:15px;
+	padding-top:3px;
+	padding-bottom: 1px;
+	margin-left:5px;
+	margin-right: 10px;
+	color: #202020;
+	min-width: 100px;
+	text-align: center;
+	transition: 0.3s;
+	overflow: hidden;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-webkit-transition: 0.3s;
+	cursor: pointer;
+}
+.nav .nav-scroll-small .major:hover
+{
+	background-color: #202020;
+	color: #fff;
+	transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-webkit-transition: 0.3s;
+
+}
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 6px;
+	height:6px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 20px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.nav .donate
+{
+	border-left: 1px solid #e5e5e5;
+	height: 55px;
+}
+.nav .donate .ripple-button
+{
+	margin-top:7px;
+	margin: auto;
+	width: 150px;
+	border: 1px solid #e6be1e;
+	background-color: #e6be1e;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 13px;
+	color: #fff;
+	text-align: center;
+    padding: 13px 21px 13px 21px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .donate .ripple-button:hover
+{
+	background-color: #a38510;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .first, .nav .second, .nav .third
+{
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+	width:200px;
+	margin:auto;
+	margin-bottom: 10px;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+	-o-transition:0.3s;
+	-moz-transition:0.3s;
+}
+.nav .first:hover, .nav .second:hover, .nav .third:hover
+{
+	font-weight: 600;
+	border-bottom: 2px solid #e6be1e;
+	transition:0.3s;
+	-webkit-transition:0.3s;
+	-o-transition:0.3s;
+	-moz-transition:0.3s;
+}
+.nav .social-media-nav-small
+{
+	border-top:1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-top:10px;
+	padding-bottom: 10px;
+	width:100%;
+	height: auto;
+	display:flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.nav .social-media-nav-small .social i
+{
+	background-color: #fff;
+	height:35px;
+	width: 35px;
+	float: left;
+	margin-right: 5px;
+	font-size:19px;
+	padding-top:7px;
+	cursor: pointer;
+	text-align:center;
+	color: #fff;
+	border-radius: 50%;
+	border:1px solid #26262626;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .social-media-nav-small .social i:hover
+{
+	border: 1px solid #262626;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .social-media-nav-small .social .first
+{
+	background-color: #3b5998;
+}
+.nav .social-media-nav-small .social .second
+{
+	background-color: #1dcaff;
+}
+.nav .social-media-nav-small .social .third
+{
+	background-color: #FF0000;
+}
+.nav .social-media-nav-small .social .fourth
+{
+	background-color: #DB4437;
+}
+.hamburger-container {
+	display: inline-block;
+	margin-top:3px;
+	margin-left:15px;
+	cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-9px, -9px);
+    transform: rotate(45deg) translate(-9px, -9px);
+}
+#menu-opener
+{
+	height:50px;
+	color: #fff;
+	background-color: #202020;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top: 4px;
+	padding-bottom:4px;
+	font-size:19px;
+}
+#menu-opener .w3-left
+{
+	font-weight: 600;
+	margin-top:10px;
+}
+#menu
+{
+	display: none;
+}
+</style>
+<div class="w3-container nav">
+	<div class="w3-container home"><img src="./img/logo.png"></div>
+	<div id="menu-opener">
+		<div class="w3-left">Menu</div>
+		<div class="w3-right hamburger-container" id="more-icon" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</div>
+	<div id="menu">
+		<div class="w3-container nav-scroll-small" id="style-1">
+			<div class="major" style="width:100px !important;">About Us</div>
+			<div class="major" style="width:110px !important;">Academics</div>
+			<div class="major" style="width:120px !important;">School Life</div>
+			<div class="major" style="width:80px !important;">News</div>
+			<div class="major" style="width:90px !important;">Contact</div>
+		</div>
+		<div class="donate fourth">
+			<div class="ripple-button">Pupil</div>
+		</div>
+		<div class="donate fourth">
+			<div class="ripple-button">Staff</div>
+		</div>
+		<div class="donate fourth">
+			<div class="ripple-button">Parents</div>
+		</div>
+		<div class="donate fourth">
+			<div class="ripple-button">Donate</div>
+		</div>
+		<div class="social-media-nav-small">
+			<div class="social"><i class="first fab fa-facebook-f"></i></div>
+			<div class="social"><i class="second fab fa-twitter"></i></div>
+			<div class="social"><i class="third fab fa-youtube"></i></div>
+			<div class="social"><i class="fourth far fa-envelope"></i></div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+$("#more-icon").click(function(){
+	if($("#menu").is(":visible"))
+	{
+	$("#menu").fadeOut();
+	}
+	else
+	{
+	$("#menu").delay(100).fadeIn("fast");
+	}
+});
+
+</script>

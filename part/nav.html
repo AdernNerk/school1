@@ -1,0 +1,213 @@
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body
+{
+	font-family: Montserrat;
+	line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    word-wrap: break-word;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+h1, h2, h3, h4, h5, h6
+{
+	margin:0px;
+	padding: 0px;
+}
+h6
+{
+	font-size: 16px;
+}
+h4
+{
+	font-size: 30px;
+}
+h3
+{
+	font-size: 40px;
+}
+.pads
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+@media (max-width:600px)
+{
+	.pads
+	{
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
+}
+@media (max-width:900px) and (min-width:601px)
+{
+	.pads
+	{
+		padding-left: 30px;
+		padding-right: 30px;	
+	}
+}
+w3-container, w3-half, w3-quarter, w3-third, w3-two-third, w3-rest, w3-threequarter, w3-left, w3-right
+{
+	padding:0px;
+	margin:0px;
+}
+.nav
+{
+	background-color: #fff;
+	color: #282828;
+}
+.nav .one
+{
+	border-bottom: 1px solid #e5e5e5;
+}
+.nav .one .home
+{
+	width: auto;
+	height: 55px;
+}
+.nav .one .major
+{
+	padding: 16px 22px;
+	font-size: 15px;
+}
+.nav .one .first, .nav .one .second, .nav .one .third, .nav .one .fourth
+{
+	border-left: 1px solid #e5e5e5;
+	height: 55px;
+	box-sizing: border-box;
+	float: left;
+}
+.nav .one .donate
+{
+	border-left: 1px solid #e5e5e5;
+	height: 55px;
+}
+.nav .one .donate .ripple-button
+{
+	margin-top:7px;
+	margin-left: 15px;
+	border: 1px solid #e6be1e;
+	background-color: #e6be1e;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 13px;
+	color: #fff;
+    padding: 13px 21px 13px 21px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .one .donate .ripple-button:hover
+{
+	background-color: #a38510;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .two
+{
+	margin-bottom: 15px;
+	margin-top:10px;
+}
+.nav .two .major
+{
+	margin-right: 10px;
+	margin-left: 5px;
+	padding:10px 10px;
+	cursor: pointer;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	-o-transition: 0.1s;
+}
+.nav .two .major:hover
+{
+	border-bottom: 2px solid #e6be1e;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	font-weight: 600;
+}
+.nav .two .social
+{
+	margin-left:5px;
+	margin-right:5px;
+	color: #fff;
+	padding-top: 5px;
+}
+.nav .two .social i
+{
+	background-color: #fff;
+	height:35px;
+	width: 35px;
+	font-size:19px;
+	padding-top:7px;
+	cursor: pointer;
+	text-align:center;
+	border-radius: 50%;
+	border:1px solid #26262626;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .two .social i:hover
+{
+	border: 1px solid #262626;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.nav .two .social .first
+{
+	background-color: #3b5998;
+}
+.nav .two .social .second
+{
+	background-color: #1dcaff;
+}
+.nav .two .social .third
+{
+	background-color: #FF0000;
+}
+.nav .two .social .fourth
+{
+	background-color: #DB4437;
+}
+</style>
+<div class="w3-container nav pads">
+	<div class=" w3-container one">
+		<div class="w3-left home"><img src="./img/logo.png"></div>
+		<div class="donate w3-right fourth">
+			<div class="ripple-button">Donate</div>
+		</div>
+		<div class="major w3-right third">Parents</div>
+		<div class="major w3-right second">Staff</div>
+		<div class="major w3-right first">Pupil</div>
+	</div>
+	<div class="w3-container two">
+		<div class="major w3-left">About Us</div>
+		<div class="major w3-left">Academics</div>
+		<div class="major w3-left">School Life</div>
+		<div class="major w3-left">News</div>
+		<div class="major w3-left">Contact</div>
+		<div class="social w3-right"><i class="fourth far fa-envelope"></i></div>
+		<div class="social w3-right"><i class="third fab fa-youtube"></i></div>
+		<div class="social w3-right"><i class="second fab fa-twitter"></i></div>
+		<div class="social w3-right"><i class="first fab fa-facebook-f"></i></div>
+	</div>
+</div>

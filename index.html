@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Institute</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/w3.css">
+	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- nav -->
+<div id="nav"></div>
+<script>
+$(document).ready(function(){
+	if($(document).width()>750)
+	{
+		$("#nav").load('./part/nav.html');
+	}
+	else
+	{
+		$("#nav").load('./part/nav-s.html');
+	}
+});
+</script>
+<!-- /nav -->
+
+<!-- slider -->
+<div id="slider"></div>
+<script>
+$(document).ready(function(){
+	$("#slider").load('./part/slider.html');
+});
+</script>
+<!-- /slider -->
+
+<!-- first section -->
+<style type="text/css">
+.first-division
+{
+	background-color: #333436;
+}
+.first-division .first
+{	
+	padding:20px;
+	padding-top:40px;
+	padding-bottom:30px;
+	min-height:170px;
+	height: auto;
+}
+.first-division .first i
+{
+	margin:0px;
+	font-size: 30px;
+	width:50px;
+	height:50px;
+	padding:10px;
+	text-align: center;
+	margin:10px;
+	color: #fff;
+}
+.first-division .first .fa-address-book
+{
+	background-color: #e6be2a;
+}
+.first-division .first .fa-bell
+{
+	background-color: #1e73be;
+}
+.first-division .first .fa-award
+{
+	background-color: #dc68d0;
+}
+
+.first-division .second
+{
+	background-color: #e6be2a;
+	color: #fff;
+	padding:20px;
+	padding-top:40px;
+	min-height:170px;
+	height: auto;
+	padding-bottom:30px;
+}
+.first-division .first .ol
+{
+	width:72px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+.first-division .first .ok
+{
+	padding-top: 7px;
+	width: 140px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+.first-division .first .sola
+{
+	min-width: 212px;
+	width: auto;
+}
+</style>
+
+<div class="w3-container first-division pads">
+	<div class="w3-container first w3-twothird">
+		<div class="w3-third sola">
+			<div class="w3-container ol"><i class="far fa-address-book"></i></div>
+			<div class="ok">
+				<h6 style="color: #fff">PROGRAMS</h6>
+				<h6 style="color: #868686;">Develop fine and <br>gross skills</h6>
+			</div>
+		</div>
+		<div class="w3-third sola">
+			<div class="w3-container ol"><i class="far fa-bell"></i></div>
+			<div class="ok">
+				<h6 style="color: #fff">ONLINE KPS</h6>
+				<h6 style="color: #868686;">Processes and <br>maintenance</h6>
+			</div>
+		</div>
+		<div class="w3-third">
+			<div class="w3-container ol"><i class="fas fa-award"></i></div>
+			<div class="ok">
+				<h6 style="color: #fff">AWARDS</h6>
+				<h6 style="color: #868686;">Cycles of time<br> be explored</h6>
+			</div>
+		</div>
+	</div>
+	<div class="w3-container second w3-third">
+		<h6 style="margin-bottom: 20px;">
+			Don't Hesitate to Ask 
+		</h6>
+		<h3>
+			Discover KPS&nbsp;<i class="far fa-arrow-alt-circle-right"></i>
+		</h3>
+	</div>
+
+</div>
+<!-- /first section -->
+
+<!-- second section -->
+<style type="text/css">
+.second-division .first img
+{
+	width:100%;
+	height:auto;
+	margin-bottom: 15px;
+}
+.second-division .first .we
+{
+	padding:15px;
+	min-width:250px;
+}
+.second-division .first .we .head
+{
+	font-weight: 600;
+	font-size: 16px;
+}
+.second-division .first .we .parah
+{
+	font-size: 15px;
+	color:#8b8b8b;
+}
+.second-division .first .we .read
+{
+	color: #8aace6;
+	margin:5px;
+	margin-left:0px;
+}
+.second-division .heading
+{
+	font-size: 18px;
+	text-align: center;
+	margin:20px;
+}
+.second-division .second
+{
+	background-color: #ededec;
+	color: #8b8b8b;
+	min-width: 150px;
+}
+.second-division .second .dotted-border
+{
+	border-bottom: 1px dotted #8b8b8b;
+	margin:10px;
+	padding:5px;
+	font-size: 16px;
+}
+</style>
+<div class="w3-container second-division pads">
+	<div class="w3-container first w3-twothird">
+		<div class="heading">Please input an email down below and hit subscribe now in order to get the<br> latest news or <u>Request a quote</u></div>
+			<div class="w3-third we">
+				<img src="./img/img-011.jpg">
+				<div class="head">Strategies</div>
+				<div class="parah">Our Young Pre classroom is for ages This age group is working on developing their fine and gross motor skills.</div>
+				<div class="read">READ MORE</div>
+			</div>
+			<div class="w3-third we">
+				<img src="./img/img-022.jpg">
+				<div class="head">Motivation</div>
+				<div class="parah">We are aware that several families already registered on this old site to join the for the 2016-2017. Use already register.</div>
+				<div class="read">READ MORE</div>
+			</div>
+			<div class="w3-third we">
+				<img src="./img/img-033.jpg">
+				<div class="head">Why us? Watch now</div>
+				<div class="parah">With this move we are hoping to reduce some of processes and maintenance overhead, reduce some of processes.</div>
+				<div class="read">READ MORE</div>
+			</div>
+	</div>
+	<div class="w3-container second w3-third">
+		<br>
+		<div class="dotted-border">Home Work Plans</div>
+		<div class="dotted-border">Practical Life In School</div>
+		<div class="dotted-border">Stop Bullying Now</div>
+		<div class="dotted-border">Child Attendance</div>
+		<div class="dotted-border">Registration Document</div>
+		<div class="dotted-border">Before And After School</div>
+		<div class="dotted-border">Launch Menu</div>
+		<br>
+		<br>
+	</div>
+</div>
+<!-- /second section -->
+
+<br><br>
+
+<!-- third section -->
+<style type="text/css">
+.third-division
+{
+	background-color: #ededed;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.third-division .outer
+{
+	margin:auto;
+	min-width:250px;
+	margin-bottom: 15px;
+}
+.third-division .head
+{
+	color: #555555;
+	font-weight: 600;
+	font-size: 17px;
+}
+.third-division .rest
+{
+	color: #8d8d8d;
+}
+.third-division .outer i
+{
+	color: #8d8d8d;
+	text-align: center;
+	width: 50px;
+	height:50px;
+	font-size: 40px;
+	margin-bottom:10px;
+	border:1px;
+}
+@media (max-width: 600px)
+{
+	.third-division .border-right
+	{
+		border-bottom:1px dotted #8d8d8d;
+		border-right: 0px !important;
+	}
+}
+.third-division .border-right
+{
+	border-right:1px dotted #8d8d8d;
+}
+</style>
+<div class="w3-container third-division pads">
+	<div class="w3-third w3-center outer border-right">
+		<div class="icon"><i class="far fa-calendar-alt"></i></div>
+		<div class="head">VISIT SCHOOL</div>
+		<div class="rest">We employed only the <br>best of the best</div>
+	</div>
+	<div class="w3-third outer w3-center border-right">
+		<div class="icon"><i class="far fa-bell"></i></div>
+		<div class="head">INQUIRE</div>
+		<div class="rest">75 Mapleton Road <br>Princeton</div>
+	</div>
+	<div class="w3-third w3-center outer">
+		<div class="icon"><i class="far fa-address-card"></i></div>
+		<div class="head">ONLINE APPLICATION</div>
+		<div class="rest">Insipred, confident and <br>ready.</div>
+	</div>
+</div>
+<!-- third section -->
+
+<br><br>
+
+<!-- fourth section -->
+<style type="text/css">
+.fourth-division
+{
+	color: #262626;
+}
+.fourth-division .first,.fourth-division .second, .fourth-division .third
+{
+	padding:15px;
+	min-width: 270px;
+}
+.fourth-division .second .dashed
+{
+	margin:0px;
+	margin-bottom: 5px;
+	font-family: Roboto;
+}
+.fourth-division .second .dashed:before
+{
+    content: "\2014";
+    left: 2px;
+}
+.fourth-division .second h4,.fourth-division .first h4,.fourth-division .third h4
+{
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.fourth-division .second h6,.fourth-division .first h6,.fourth-division .third h6
+{
+	font-size:15px;
+	color: #6c98e1;
+	margin-bottom: 15px;
+}
+.fourth-division .outer img
+{
+	width:100%;
+	height: auto;
+	max-width:80px;
+	margin: 10px;
+	float:left;
+}
+.fourth-division .one
+{
+	background-color: #f5f5f5;
+}
+.fourth-division .parah
+{
+	color: #979797;
+	line-height: 18px;
+	font-family: 'Roboto';
+}
+.fourth-division .desig
+{
+	font-size: 15px;
+	color:#262626;
+	margin-bottom:5px;
+}
+.fourth-division .name
+{
+	color:#202020;
+	float:left;
+	font-size: 17px;
+}
+.fourth-division .outer .no-img
+{
+	float:left;
+	max-width:200px;
+	width:auto;
+}
+.said
+{
+	background-color: #6c98e1;
+	color: #fff;
+    background-color: #6c98e1;
+    padding: 0px 6px;
+    font-size: 12px;
+    border-radius: 2px;
+    font-weight: normal;
+	font-family: 'Roboto';
+    float:left;
+    width:auto;
+    text-align: center;
+    max-width:45px;
+    margin-left:15px;
+    margin-top:3px;
+}
+.fourth-division .outer
+{
+	padding:10px;
+}
+.fourth-division .third .shadow p
+{
+	line-height: 10px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 8px;
+    width:100%;
+    max-width:500px;
+	color: #7c7c7c;
+    font-size: 15px;
+    opacity: 1;
+}
+.fourth-division .third .grey
+{
+	background-color: #e5e5e5;
+	padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    width:100%;
+    font-family: Roboto;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c7c7c;
+    font-size: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+.fourth-division .third .grey p:before
+{
+    content: "\2014";
+    left: 2px;
+}
+.fourth-division .third .shadow hr
+{
+	margin:0px;
+}
+.fourth-division .third .shadow
+{
+	width:100%;
+	max-width:550px;
+	box-shadow: 0px 2px 7px #d4d4d4;
+	padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+</style>
+<div class="w3-container fourth-division pads">
+	<div class="w3-third first">
+		<h4>Alumni</h4>
+		<h6>STUDENTS TESTIMONIALS</h6>
+		<div class="w3-container outer one">
+			<img src="./img/alumni1.png">
+			<div class="w3-container no-img">
+				<div class="name">Alen Parker</div>
+				<div class="said">SAID</div>
+				<div class="w3-container desig">SCIENTIST</div>
+				<div class="w3-container parah">As a ED student, I can say a great environment for international students.</div>
+			</div>
+		</div>
+		<div class="w3-container outer w3-margin-top">
+			<img src="./img/alumni2.png">
+			<div class="no-img">
+				<div class="name">Ema Stone</div>
+				<div class="said">SAID</div>
+				<div class="w3-container desig">PEDIATRIST</div>
+				<div class="parah">I am really happy that I have chosen to attend the ED certification program.</div>
+			</div>
+		</div>
+	</div>
+	<div class="w3-third second">
+		<h4>Why choose us</h4>
+		<h6>OUR LEARN BASED PROGRAM</h6>
+		<p class="dashed">&nbsp;&nbsp;Curriculum & instruction start</p>
+		<p class="dashed">&nbsp;&nbsp;Student support services</p>
+		<p class="dashed">&nbsp;&nbsp;Human resources ED center</p>
+		<p class="dashed">&nbsp;&nbsp;Early childhood center</p>
+		<p class="dashed">&nbsp;&nbsp;Auditorium with stage</p>
+		<p class="dashed">&nbsp;&nbsp;Ed middle school</p>
+		<p class="dashed">&nbsp;&nbsp;Three athletic fields</p>
+		<p class="dashed">&nbsp;&nbsp;Three athletic fields strive</p>
+		<p class="dashed">&nbsp;&nbsp;Elementary school</p>
+	</div>
+	<div class="w3-third third">
+		<div class="w3-container shadow">
+			<h4 class="w3-margin">Working hours</h4>
+			<hr>
+			<p><span class="w3-left">Mon-Wed</span>	<span class="w3-right">8:00 - 8:40</span></p>
+			<hr>
+			<p><span class="w3-left">Thu-Fri</span>	<span class="w3-right">8:45 - 9:30</span></p>
+			<hr>
+			<p><span class="w3-left">Saturday</span>	<span class="w3-right">9:35 - 10:20</span></p>
+			<hr>
+			<p><span class="w3-left">Holidays</span><span class="w3-right">10:40 - 11:20</span></p>
+		</div>
+		<div class="w3-container grey">
+			<p>&nbsp;&nbsp;&nbsp;Provides opportunities for the child to explore</p>
+		</div>
+	</div>
+</div>
+<!-- /fourth section -->
+
+<br><br>
+
+<!-- fifth division -->
+<style type="text/css">
+.fifth-division
+{
+	padding-top: 45px;
+    padding-bottom: 35px;
+    background-color: #37383a;
+}
+.fifth-division .icon
+{
+	width: 100%;
+	text-align: center;
+}
+.fifth-division .icon i
+{
+	font-size: 40px;
+	width:50px;
+	height:50px;
+	padding-top: 5px;
+	text-align: center;
+	color: #fff;
+}
+.fifth-division .icon .one
+{
+	background-color: #f1b830;
+}
+.fifth-division .icon .two
+{
+	background-color: #db68cf;
+}
+.fifth-division .icon .three
+{
+	background-color: #6b97e0;;
+}
+.fifth-division .icon .four
+{
+	background-color: #ba3323;
+}
+.fifth-division .icon .five
+{
+	background-color: #48a6d3;
+}
+.fifth-division .icon .six
+{
+	background-color: #83c44d;
+}
+.fifth-division .non-icon
+{
+	padding:5px;
+}
+.fifth-division .box .heading
+{
+	font-size: 17px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #fff;
+}
+.fifth-division .box .content
+{
+	text-align: left;
+	color: #aeafaf;
+	font-size: 15px;
+}
+</style>
+<div class="w3-container fifth-division pads">
+	<div class="w3-container w3-margin-bottom w3-padding w3-third box">
+		<div class="w3-container icon">
+			<i class="one fa fa-book"></i>
+		</div>
+		<div class="w3-container non-icon">
+			<div class="heading">FOUNDED 1956</div>
+			<div class="content">Outdoor learning and tending to our school garden is a big part of our day.</div>
+		</div>
+	</div>
+	<div class="w3-container w3-margin-bottom w3-padding w3-third box">
+		<div class="w3-container icon">
+			<i class="two fas fa-location-arrow"></i>
+		</div>
+		<div class="w3-container non-icon">
+			<div class="heading">STUDENTS: 150</div>
+			<div class="content">This age group is playing their way to greater independence, socio-emotional growth and self.</div>
+		</div>
+	</div>
+	<div class="w3-container w3-margin-bottom w3-padding w3-third box">
+		<div class="w3-container icon">
+			<i class="three fas fa-medal"></i>
+		</div>
+		<div class="w3-container non-icon">
+			<div class="heading">GRADUATION RATE 100%</div>
+			<div class="content">Children in this classroom are working on forging social skills through collaboration.</div>
+		</div>
+	</div>
+	<div class="w3-container w3-margin-bottom w3-padding w3-third box">
+		<div class="w3-container icon">
+			<i class="four fas fa-map-marker-alt"></i>
+		</div>
+		<div class="w3-container non-icon">
+			<div class="heading">LOCATION: PORTLAND, ME</div>
+			<div class="content">This age group is playing their way to greater independence, socio-emotional growth and self.</div>
+		</div>
+	</div>
+	<div class="w3-container w3-margin-bottom w3-padding w3-third box">
+		<div class="w3-container icon">
+			<i class="five far fa-clock"></i>
+		</div>
+		<div class="w3-container non-icon">
+			<div class="heading">TEACHER-STUDENT: 1:5</div>
+			<div class="content">Outdoor learning and tending to our school garden is a big part of our day.</div>
+		</div>
+	</div>
+	<div class="w3-container w3-margin-bottom w3-padding w3-third box">
+		<div class="w3-container icon">
+			<i class="six fas fa-flask"></i>
+		</div>
+		<div class="w3-container non-icon">
+			<div class="heading">REPRESENTATION 24 CITIES</div>
+			<div class="content">Children in this classroom are working on forging social skills through collaboration.</div>
+		</div>
+	</div>
+</div>
+<!-- /fifth division -->
+
+
+<!-- sixth division  -->
+<style type="text/css">
+.sixth-division
+{
+
+}
+.sixth-division .news
+{
+	padding-left: 100px;
+	padding-top:40px;
+	padding-bottom: 30px;
+	padding-right: 15px;
+	color: #2d2d2d;
+	font-weight: 600;
+}
+.sixth-division .events
+{
+	padding-right: 100px;
+	background-color: #ededed;
+	padding-top:40px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	color: #262626;
+}
+@media (max-width:600px)
+{
+	.sixth-division .news
+	{
+		padding-left: 10px;
+	}
+	.sixth-division .events
+	{
+		padding-right: 10px;
+	}
+}
+@media (max-width:800px) and (min-width:601px)
+{
+	.sixth-division .news
+	{
+		padding-left: 30px;
+	}
+	.sixth-division .events
+	{
+		padding-right: 30px;
+	}
+}
+.sixth-division .news .outer .inner .date
+{
+	padding:15px;
+	color: #878787;
+}
+.sixth-division .news .outer .inner .info
+{
+	padding:15px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+.sixth-division .news .outer
+{
+	padding: 15px;
+	min-width: 200px;
+}
+.sixth-division .news .inner
+{
+	border: 1px solid #DCDFE8;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.sixth-division .news .inner:hover
+{
+	box-shadow: 0px 2px 7px #d4d4d4;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+}
+.sixth-division .news .inner .img-container
+{
+	overflow: hidden;
+}
+.sixth-division .news .inner .img-container img
+{
+	width: 100%;
+	height: auto;
+}
+.sixth-division .news .inner .ing-container img:hover
+{
+	margin: -20px;
+}
+.sixth-division .news h4, .sixth-division .events h4
+{
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.sixth-division .news h6, .sixth-division .events h6
+{
+	font-size:15px;
+	color: #6c98e1;
+	margin-bottom: 15px;
+}
+.sixth-division .events .outer .date
+{
+	display: table-cell;
+    vertical-align: middle;
+    width: 60px;
+    font-size: 13px;
+    line-height: 17px;
+    background-color: #6c98e1;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+.sixth-division .events .outer .date .day
+{
+	font-size: 16px;
+}
+.sixth-division .events .outer .info
+{
+	background-color: #fff;
+	display: table-cell;
+    vertical-align: middle;
+    padding-left: 17px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    font-style: normal;
+    color: #7c7c7c;
+    font-size: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+.sixth-division .events .outer
+{
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 4px 1px #d9d9d9;
+	background-color: #fff;
+}
+</style>
+<div class="w3-container sixth-division">
+	<div class="news w3-twothird w3-container">
+		<h4>Latest news</h4>
+		<h6>KEEP UPDATED</h6>
+		<br>
+		<div class="w3-container w3-third outer">
+			<div class="w3-container inner">
+				<div class="img-container"><img src="./img/news1.jpg"></div>
+				<div class="date"><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;February 22, 2017</div>
+				<div class="info">Open School's Institut Constructivism</div>
+			</div>
+		</div>
+		<div class="w3-container w3-third outer">
+			<div class="w3-container inner">
+				<div class="img-container"><img src="./img/news2.jpg"></div>
+				<div class="date"><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;February 22, 2017</div>
+				<div class="info">Thank You for Bringing in Those Toys</div>
+			</div>
+		</div>
+		<div class="w3-container w3-third outer">
+			<div class="w3-container inner">
+				<div class="img-container"><img src="./img/news2.jpg"></div>
+				<div class="date"><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;February 22, 2017</div>
+				<div class="info">Thinking skills Simply amazing! Great</div>
+			</div>
+		</div>
+	</div>
+	<div class="events w3-third w3-container">
+		<h4>Events</h4>
+		<h6>KEEP UPDATED</h6>
+		<p>Please input an email and school address down below input an email address down an email.</p>
+		<div class="outer">
+			<div class="date">FEB<br><div class="day">08</div></div>
+			<div class="info">Board Meeting</div>
+		</div>
+		<div class="outer">
+			<div class="date">AUG<br><div class="day">07</div></div>
+			<div class="info">Open Day</div>
+		</div>
+		<div class="outer">
+			<div class="date">AUG<br><div class="day">23</div></div>
+			<div class="info">Friends of the School</div>
+		</div>
+		<h6>ALL EVENTS</h6>
+	</div>
+</div>
+<!-- /sixth division  -->
+
+<br><br>
+
+<!-- footer -->
+<div id="footer"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#footer").load('./part/footer.html');
+});
+</script>
+<!-- /footer -->
+
+</body>
+</html>
